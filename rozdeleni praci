@@ -1,7 +1,17 @@
-Tomas
+Tomas:
+konstruktor
+metoda otazky
+metoda kontrola
 
 
-Navrc
+Navrc:
+metoda zapis
+metoda hodnoceni
+tridu Prijimacky
 
 
-Ondra
+
+Ondra:
+metoda typ testu
+metoda pro textove retezce
+destruktor
