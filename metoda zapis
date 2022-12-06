@@ -1,0 +1,7 @@
+def zapis(self):
+  self.jmeno = str(input('Jméno a Příjmení: '))
+  self.trida = str(input('Třída: '))
+  print('Předmět:',self.predmet)
+  print('Datum:',self.datum)
+  print('Jméno a Příjmení:',self.jmeno)
+  print('Třída:',self.trida)
