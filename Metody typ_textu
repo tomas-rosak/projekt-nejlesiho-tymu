@@ -1,0 +1,4 @@
+def typ_testu(self):
+  print("T: Test")
+  print("P: Přijímačky")
+  self.typ=input("Typ zkoušky: ")
