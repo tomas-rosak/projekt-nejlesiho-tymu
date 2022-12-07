@@ -1,4 +1,10 @@
 def typ_testu(self):
   print("T: Test")
   print("P: Přijímačky")
-  self.typ=input("Typ zkoušky: ")
+  self.typ=input(str("Typ zkoušky: "))
+
+def txtretezec(self):
+  if self.typ == "T" or "t":
+    print("Z A Č Á T E K   T E S T U . . .")
+  elif self.typ == "P" or "p":
+    print("Z A Č Á T E K   P Ř I J Í M  Č E K . . .")
