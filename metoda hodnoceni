@@ -1,0 +1,18 @@
+def hodnoceni(self):
+  if self.pocet_bodu == 5:
+    print('počet bodů: 5')
+    print('známka: 1')
+  elif self.pocet_bodu == 4:
+    print('počet bodů: 4')
+    print('známka: 2')
+  elif self.pocet_bodu == 3:
+    print('počet bodů: 3')
+    print('známka: 3')
+  elif (self.pocet_bodu == 2) or (self.pocet_bodu == 1):
+    print('počet bodů: 2')
+    print('známka: 4')
+  elif self.pocet_bodu == 0:
+    print('počet bodů: 1')
+    print('známka: 5')
+  else:
+    print('špatný počet bodů')
