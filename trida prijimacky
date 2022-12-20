@@ -1,0 +1,6 @@
+class Prijimacky(Test):
+  def stav(self):
+    if (self.znamka == 1) or (self.znamka == 2) or (self.znamka == 3):
+      print('PŘIJAT')
+    else:
+      print('NEPŘIJAT')
