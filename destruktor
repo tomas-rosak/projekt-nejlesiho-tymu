@@ -1,0 +1,2 @@
+def __del__(self):
+  print("HODNOCENÍ BYLO ULOŽENO")
