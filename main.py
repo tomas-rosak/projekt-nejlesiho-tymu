@@ -19,6 +19,26 @@ class Test:
         print('Datum:',self.den)
         print('Jméno a Příjmení:',self.jmeno)
         print('Třída:',self.trida)
+    
+    def hodnoceni(self):
+        self.znamka == ''
+        if self.pocet_bodu == 5:
+            self.znamka = 1
+        elif self.pocet_bodu == 4:
+            self.znamka = 2
+        elif self.pocet_bodu == 3:
+            self.znamka = 3
+        elif self.pocet_bodu == 2:
+            self.znamka = 4
+        elif self.pocet_bodu == 1:
+            self.znamka = 4
+        elif self.pocet_bodu == 0:
+            self.znamka = 5
+        else:
+            print('špatný počet bodů')
+
+  print('počet bodů:', self.pocet_bodu)
+  print('známka:', self.znamka)
 
 class Prijmacky(Test):
     def __init__(self):
